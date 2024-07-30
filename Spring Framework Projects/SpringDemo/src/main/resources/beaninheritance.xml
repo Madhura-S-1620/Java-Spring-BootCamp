@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="baseBookBean" class="com.test.inheritance.Book" >
+        <property name="publisher" value="IBH" />
+    </bean>
+    <bean id="myBookBean" parent="baseBookBean">
+        <property name="BookId" value="3331" />
+        <property name="Bookname" value="Cpp" />
+    </bean>
+
+    <bean id="myBookBean1" parent="baseBookBean">
+        <property name="BookId" value="3332" />
+        <property name="Bookname" value="Python" />
+    </bean>
+</beans>

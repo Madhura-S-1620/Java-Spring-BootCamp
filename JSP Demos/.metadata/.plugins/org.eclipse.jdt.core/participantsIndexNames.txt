@@ -1,0 +1,9 @@
+INDEX VERSION 1.134
+F:\Coforge Java Bootcamp\JSP Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2948441322.index
+\ImplicitObjectExample\src\main\java
+F:\Coforge Java Bootcamp\JSP Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2408993901.index
+\CustomTag\src\main\java
+F:\Coforge Java Bootcamp\JSP Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2074655923.index
+\HelloServlet1\src\main\java
+F:\Coforge Java Bootcamp\JSP Demos\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2929891282.index
+\HelloServlet\src\main\java

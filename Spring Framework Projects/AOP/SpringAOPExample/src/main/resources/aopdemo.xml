@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- Define the Employee bean -->
+    <bean id="employee" class="com.springdemo.Employee">
+        <constructor-arg value="John Doe" />
+        <constructor-arg value="30" />
+    </bean>
+
+    <!-- Define the EmployeePerformanceAspect bean -->
+    <bean id="employeePerformanceAspect" class="com.springdemo.EmployeePerformanceAspect" />
+
+    <!-- Enable AspectJ auto-proxying -->
+    <aop:aspectj-autoproxy />
+</beans>

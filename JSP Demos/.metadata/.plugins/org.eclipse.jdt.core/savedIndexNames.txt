@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+F:\Coforge Java Bootcamp\JSP Demos\.metadata\.plugins\org.eclipse.jdt.core
+2395670439.index
+1865797976.index
+412470484.index
+363798560.index

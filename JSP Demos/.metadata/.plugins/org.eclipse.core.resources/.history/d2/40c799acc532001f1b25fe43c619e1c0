@@ -1,0 +1,76 @@
+<taglib version="2.0" xmlns="http://java.sun.com/xml/j2ee"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"> 
+<tlib-version>2.0</tlib-version> 
+<jsp-version>2.0</jsp-version> 
+<tag> 
+	<name>sum</name> 
+	<tagclass>tagHandler.SumTagHandler</tagclass> 
+	<body-content>empty</body-content> 
+	<attribute> 
+		<name>num1</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+	<attribute> 
+		<name>num2</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+</tag> 
+<tag> 
+	<name>diff</name> 
+	<tagclass>tagHandler.DiffTagHandler</tagclass> 
+	<body-content>empty</body-content> 
+	<attribute> 
+		<name>num1</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+	<attribute> 
+		<name>num2</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+</tag> 
+<tag> 
+	<name>product</name> 
+	<tagclass>tagHandler.ProductTagHandler</tagclass> 
+	<body-content>empty</body-content> 
+	<attribute> 
+		<name>num1</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+	<attribute> 
+		<name>num2</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+</tag> 
+<tag> 
+	<name>quotient</name> 
+	<tagclass>tagHandler.QuotientTagHandler</tagclass> 
+	<body-content>empty</body-content> 
+	<attribute> 
+		<name>num1</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+	<attribute> 
+		<name>num2</name> 
+		<type>double</type> 
+		<rtexprvalue>true</rtexprvalue> 
+		<required>true</required> 
+	</attribute> 
+</tag> 
+
+
+</taglib>

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+F:\Coforge Java Bootcamp\Spring Framework Projects\SpringSecurity\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+266870635.index
+2941338974.index
+4059809884.index
+3381138787.index
+3589335380.index
+2427225978.index
+1134375108.index

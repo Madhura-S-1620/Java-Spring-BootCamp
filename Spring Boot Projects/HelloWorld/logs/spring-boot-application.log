@@ -1,0 +1,215 @@
+2024-07-16T16:34:27.007+05:30  INFO 3776 --- [HelloWorld] [main] com.example.logging.Main                 : Starting Main using Java 18.0.2 with PID 3776 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T16:34:27.012+05:30  INFO 3776 --- [HelloWorld] [main] com.example.logging.Main                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T16:34:29.362+05:30  INFO 3776 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-16T16:34:29.412+05:30  INFO 3776 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T16:34:29.438+05:30  INFO 3776 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T16:34:29.730+05:30  INFO 3776 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T16:34:29.732+05:30  INFO 3776 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2586 ms
+2024-07-16T16:34:30.742+05:30  INFO 3776 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-16T16:34:30.762+05:30  INFO 3776 --- [HelloWorld] [main] com.example.logging.Main                 : Started Main in 4.977 seconds (process running for 6.392)
+2024-07-16T16:34:48.124+05:30  INFO 3776 --- [HelloWorld] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T16:34:48.125+05:30  INFO 3776 --- [HelloWorld] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T16:34:48.127+05:30  INFO 3776 --- [HelloWorld] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T16:34:48.204+05:30  INFO 3776 --- [HelloWorld] [http-nio-8080-exec-1] com.example.logging.Controller           : This is an INFO level log message.
+2024-07-16T16:34:48.204+05:30  WARN 3776 --- [HelloWorld] [http-nio-8080-exec-1] com.example.logging.Controller           : This is a WARN level log message.
+2024-07-16T16:34:48.204+05:30 ERROR 3776 --- [HelloWorld] [http-nio-8080-exec-1] com.example.logging.Controller           : This is an ERROR level log message.
+2024-07-16T16:58:12.046+05:30  INFO 14708 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Starting GreetingControllerTest using Java 18.0.2 with PID 14708 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T16:58:12.049+05:30 DEBUG 14708 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T16:58:12.050+05:30  INFO 14708 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T16:58:13.869+05:30  INFO 14708 --- [HelloWorld] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-16T16:58:13.870+05:30  INFO 14708 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-16T16:58:13.871+05:30  INFO 14708 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-16T16:58:13.914+05:30  INFO 14708 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Started GreetingControllerTest in 2.403 seconds (process running for 6.055)
+2024-07-16T17:03:19.763+05:30  INFO 19552 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Starting Main using Java 18.0.2 with PID 19552 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:03:19.768+05:30  INFO 19552 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:03:21.728+05:30  INFO 19552 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-16T17:03:21.768+05:30  INFO 19552 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:03:21.769+05:30  INFO 19552 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:03:21.932+05:30  INFO 19552 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:03:21.933+05:30  INFO 19552 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2067 ms
+2024-07-16T17:03:22.638+05:30  WARN 19552 --- [HelloWorld] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-16T17:03:22.711+05:30  INFO 19552 --- [HelloWorld] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-16T17:03:22.741+05:30 ERROR 19552 --- [HelloWorld] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-07-16T17:04:17.006+05:30  INFO 9976 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Starting Main using Java 18.0.2 with PID 9976 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:04:17.026+05:30  INFO 9976 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:04:18.930+05:30  INFO 9976 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-16T17:04:18.971+05:30  INFO 9976 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:04:18.972+05:30  INFO 9976 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:04:19.082+05:30  INFO 9976 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:04:19.083+05:30  INFO 9976 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1916 ms
+2024-07-16T17:04:19.689+05:30  WARN 9976 --- [HelloWorld] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-07-16T17:04:19.712+05:30  INFO 9976 --- [HelloWorld] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-16T17:04:19.759+05:30 ERROR 9976 --- [HelloWorld] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-07-16T17:05:13.446+05:30  INFO 14392 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Starting Main using Java 18.0.2 with PID 14392 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:05:13.451+05:30  INFO 14392 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:05:15.182+05:30  INFO 14392 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-16T17:05:15.208+05:30  INFO 14392 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:05:15.208+05:30  INFO 14392 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:05:15.299+05:30  INFO 14392 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:05:15.299+05:30  INFO 14392 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1710 ms
+2024-07-16T17:05:15.964+05:30  INFO 14392 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-16T17:05:15.981+05:30  INFO 14392 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Started Main in 3.631 seconds (process running for 4.186)
+2024-07-16T17:05:28.524+05:30  INFO 14392 --- [HelloWorld] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T17:05:28.526+05:30  INFO 14392 --- [HelloWorld] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T17:05:28.530+05:30  INFO 14392 --- [HelloWorld] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T17:07:10.836+05:30  INFO 7736 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Starting Main using Java 18.0.2 with PID 7736 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:07:10.841+05:30  INFO 7736 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:07:12.265+05:30  WARN 7736 --- [HelloWorld] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2024-07-16T17:07:12.291+05:30  INFO 7736 --- [HelloWorld] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-16T17:07:12.342+05:30 ERROR 7736 --- [HelloWorld] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.port' to java.lang.Integer:
+
+    Property: server.port
+    Value: "8081   //customize the server"
+    Origin: class path resource [application.properties] - 14:13
+    Reason: failed to convert java.lang.String to java.lang.Integer (caused by java.lang.NumberFormatException: For input string: "8081//customizetheserver")
+
+Action:
+
+Update your application's configuration
+
+2024-07-16T17:08:46.695+05:30  INFO 7784 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Starting Main using Java 18.0.2 with PID 7784 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:08:46.700+05:30  INFO 7784 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:08:48.437+05:30  INFO 7784 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-16T17:08:48.462+05:30  INFO 7784 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:08:48.463+05:30  INFO 7784 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:08:48.575+05:30  INFO 7784 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:08:48.576+05:30  INFO 7784 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1789 ms
+2024-07-16T17:08:49.160+05:30  INFO 7784 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-07-16T17:08:49.175+05:30  INFO 7784 --- [HelloWorld] [main] com.example.autoconfiguration.Main       : Started Main in 3.277 seconds (process running for 3.94)
+2024-07-16T17:09:04.754+05:30  INFO 7784 --- [HelloWorld] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T17:09:04.754+05:30  INFO 7784 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T17:09:04.756+05:30  INFO 7784 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T17:15:50.423+05:30  INFO 20232 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Starting DemoApplication using Java 18.0.2 with PID 20232 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:15:50.426+05:30  INFO 20232 --- [HelloWorld] [main] c.example.customization.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:15:51.117+05:30  WARN 20232 --- [HelloWorld] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'customBean' defined in class path resource [com/example/customization/CustomBean.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=customBean; factoryMethodName=customBean; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/customization/CustomBean.class]] for bean 'customBean' since there is already [Generic bean: class [com.example.customization.CustomBean]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes\com\example\customization\CustomBean.class]] bound.
+2024-07-16T17:15:51.130+05:30  INFO 20232 --- [HelloWorld] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-16T17:15:51.163+05:30 ERROR 20232 --- [HelloWorld] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'customBean', defined in class path resource [com/example/customization/CustomBean.class], could not be registered. A bean with that name has already been defined in file [F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes\com\example\customization\CustomBean.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-07-16T17:28:33.636+05:30  INFO 15552 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Starting DemoApplication using Java 18.0.2 with PID 15552 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:28:33.641+05:30  INFO 15552 --- [HelloWorld] [main] c.example.customization.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:28:34.347+05:30  WARN 15552 --- [HelloWorld] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'customBean' defined in class path resource [com/example/customization/CustomBean.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=customBean; factoryMethodName=customBean; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/example/customization/CustomBean.class]] for bean 'customBean' since there is already [Generic bean: class [com.example.customization.CustomBean]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes\com\example\customization\CustomBean.class]] bound.
+2024-07-16T17:28:34.360+05:30  INFO 15552 --- [HelloWorld] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-16T17:28:34.401+05:30 ERROR 15552 --- [HelloWorld] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'customBean', defined in class path resource [com/example/customization/CustomBean.class], could not be registered. A bean with that name has already been defined in file [F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes\com\example\customization\CustomBean.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2024-07-16T17:30:09.185+05:30  INFO 16140 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Starting DemoApplication using Java 18.0.2 with PID 16140 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:30:09.191+05:30  INFO 16140 --- [HelloWorld] [main] c.example.customization.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:30:11.244+05:30  INFO 16140 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-16T17:30:11.268+05:30  INFO 16140 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:30:11.268+05:30  INFO 16140 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:30:11.359+05:30  INFO 16140 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:30:11.360+05:30  INFO 16140 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2076 ms
+2024-07-16T17:30:12.212+05:30  INFO 16140 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-07-16T17:30:12.237+05:30  INFO 16140 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Started DemoApplication in 3.814 seconds (process running for 4.359)
+2024-07-16T17:30:49.020+05:30  INFO 16140 --- [HelloWorld] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T17:30:49.022+05:30  INFO 16140 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T17:30:49.023+05:30  INFO 16140 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T17:35:04.575+05:30  INFO 1996 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Starting GreetingControllerTest using Java 17.0.10 with PID 1996 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:35:04.579+05:30 DEBUG 1996 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T17:35:04.582+05:30  INFO 1996 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:35:06.284+05:30  INFO 1996 --- [HelloWorld] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-16T17:35:06.285+05:30  INFO 1996 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-16T17:35:06.287+05:30  INFO 1996 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-16T17:35:06.314+05:30  INFO 1996 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Started GreetingControllerTest in 2.37 seconds (process running for 3.881)
+2024-07-16T17:35:07.836+05:30  INFO 1996 --- [HelloWorld] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.HelloWorldApplicationTests]: HelloWorldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-16T17:35:07.840+05:30  INFO 1996 --- [HelloWorld] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.HelloWorldApplication for test class com.example.demo.HelloWorldApplicationTests
+2024-07-16T17:35:07.928+05:30  INFO 1996 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Starting HelloWorldApplicationTests using Java 17.0.10 with PID 1996 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:35:07.928+05:30 DEBUG 1996 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T17:35:07.931+05:30  INFO 1996 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:35:08.500+05:30  INFO 1996 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Started HelloWorldApplicationTests in 0.644 seconds (process running for 6.067)
+2024-07-16T17:36:06.868+05:30  INFO 13900 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Starting GreetingControllerTest using Java 18.0.2 with PID 13900 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:36:06.870+05:30 DEBUG 13900 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T17:36:06.871+05:30  INFO 13900 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:36:08.831+05:30  INFO 13900 --- [HelloWorld] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-16T17:36:08.831+05:30  INFO 13900 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-16T17:36:08.834+05:30  INFO 13900 --- [HelloWorld] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-07-16T17:36:08.868+05:30  INFO 13900 --- [HelloWorld] [main] c.example.demo.GreetingControllerTest    : Started GreetingControllerTest in 2.482 seconds (process running for 4.189)
+2024-07-16T17:36:10.898+05:30  INFO 13900 --- [HelloWorld] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.demo.HelloWorldApplicationTests]: HelloWorldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-16T17:36:10.903+05:30  INFO 13900 --- [HelloWorld] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.demo.HelloWorldApplication for test class com.example.demo.HelloWorldApplicationTests
+2024-07-16T17:36:10.947+05:30  INFO 13900 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Starting HelloWorldApplicationTests using Java 18.0.2 with PID 13900 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:36:10.947+05:30 DEBUG 13900 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T17:36:10.948+05:30  INFO 13900 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:36:11.457+05:30  INFO 13900 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Started HelloWorldApplicationTests in 0.547 seconds (process running for 6.778)
+2024-07-16T17:37:11.377+05:30  INFO 6712 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Starting HelloWorldApplicationTests using Java 18.0.2 with PID 6712 (started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:37:11.379+05:30 DEBUG 6712 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-16T17:37:11.380+05:30  INFO 6712 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:37:13.211+05:30  INFO 6712 --- [HelloWorld] [main] c.e.demo.HelloWorldApplicationTests      : Started HelloWorldApplicationTests in 2.257 seconds (process running for 3.581)
+2024-07-16T17:51:41.303+05:30  INFO 18040 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Starting DemoApplication using Java 18.0.2 with PID 18040 (F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld\target\classes started by DELL in F:\Coforge Java Bootcamp\Spring Boot Projects\HelloWorld)
+2024-07-16T17:51:41.308+05:30  INFO 18040 --- [HelloWorld] [main] c.example.customization.DemoApplication  : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T17:51:43.083+05:30  INFO 18040 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-16T17:51:43.121+05:30  INFO 18040 --- [HelloWorld] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T17:51:43.121+05:30  INFO 18040 --- [HelloWorld] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T17:51:43.222+05:30  INFO 18040 --- [HelloWorld] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T17:51:43.223+05:30  INFO 18040 --- [HelloWorld] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1805 ms
+2024-07-16T17:51:43.769+05:30  INFO 18040 --- [HelloWorld] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-07-16T17:51:43.783+05:30  INFO 18040 --- [HelloWorld] [main] c.example.customization.DemoApplication  : Started DemoApplication in 3.427 seconds (process running for 4.335)
+2024-07-16T17:51:48.593+05:30  INFO 18040 --- [HelloWorld] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T17:51:48.593+05:30  INFO 18040 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T17:51:48.595+05:30  INFO 18040 --- [HelloWorld] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

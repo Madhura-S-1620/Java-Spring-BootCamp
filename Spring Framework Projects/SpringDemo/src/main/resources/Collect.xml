@@ -1,0 +1,72 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="productbean"  class="com.collection.ProductBean">
+        <property name="lists">
+            <list>
+                <value>1</value>
+                <ref bean="productdetailbean" />
+                <bean class="com.collection.productDetailBean">
+                    <property name="pr_name" value="ProductList" />
+                    <property name="pr_id" value="A11190" />
+                    <property name="qty" value="28" />
+                    <property name="price" value="280.70" />
+                </bean>
+            </list>
+        </property>
+
+
+        <property name="sets">
+            <set>
+                <set>
+                    <value>1</value>
+                    <ref bean="productdetailbean" />
+                    <bean class="com.collection.productDetailBean">
+                        <property name="pr_name" value="Productssets" />
+                        <property name="pr_id" value="B2289" />
+                        <property name="qty" value="28" />
+                        <property name="price" value="280.70" />
+                    </bean>
+                </set>
+            </set>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="Key 1" value="1" />
+                <entry key="Key 2" value-ref="productdetailbean" />
+                <entry key="Key 3">
+
+
+
+                    <bean class="com.collection.productDetailBean">
+                        <property name="pr_name" value="ProductMap" />
+                        <property name="pr_id" value="M555" />
+                        <property name="qty" value="28" />
+                        <property name="price" value="330.56"/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+
+        <property name="pros">
+            <props>
+                <prop key="tech">technical@domain.com</prop>
+                <prop key="logistic">logistic@domain.com</prop>
+            </props>
+        </property>
+    </bean>
+
+
+
+
+    <bean id="productdetailbean" class="com.collection.productDetailBean">
+        <property name="pr_name" value="Mobile Phone" />
+        <property name="pr_id" value="A223" />
+        <property name="qty" value="5" />
+        <property name="price" value="45390.50"/>
+    </bean>
+
+
+</beans>

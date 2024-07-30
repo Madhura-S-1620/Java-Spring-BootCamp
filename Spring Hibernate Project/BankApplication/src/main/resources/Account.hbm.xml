@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Account.SavingAccount" table="SAVING_ACCOUNT">
+        <id name="id" column="ID">
+            <generator class="native"/>
+        </id>
+        <property name="custname" column="CUSTNAME"/>
+        <list name="deposits" table="DEPOSITS">
+            <key column="ACCOUNT_ID"/>
+            <list-index column="LIST_INDEX"/>
+            <element column="DEPOSIT" type="string"/>
+        </list>
+    </class>
+</hibernate-mapping>

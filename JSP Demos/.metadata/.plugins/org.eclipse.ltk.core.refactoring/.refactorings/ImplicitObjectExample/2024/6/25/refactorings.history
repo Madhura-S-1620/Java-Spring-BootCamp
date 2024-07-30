@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ImplicitObjectExample/src/main/webapp/AookicationObjectEx.jsp&apos; to &apos;ApplicationObjectEx.jsp&apos;" description="Rename resource &apos;AookicationObjectEx.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/AookicationObjectEx.jsp" name="ApplicationObjectEx.jsp" stamp="1718733356936" updateReferences="true"/>
+</session>

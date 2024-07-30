@@ -1,0 +1,18 @@
+Sonaqube testing:
+
+1.make the spring boot project add plugin of sonarqube and jacoco.and it should be build success for mvn clean install .
+2.run the following commands:
+     
+mvn jacoco:prepare-agent
+mvn jacoco:prepare-agent install
+mvn jacoco:prepare-agent-integration
+mvn sonar:sonar -Dsonar.login=token address generated on sonarqube
+
+3. to generate token on sonarqube 
+   -> go to account of sonarqube
+   -> Go to Security
+   -> name of token=admin
+   ->type of token =user token 
+   ->validate the days and generate it 
+
+4. and add the token which generate into last command as it is mentioned.
